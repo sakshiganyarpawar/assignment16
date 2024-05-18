@@ -3,30 +3,29 @@
 <head>
     <title>Cafe</title>
     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
         body{
-            margin: 0px;
-            padding:0px;
+            margin: 0;
+            padding:0;
         }
         .navbar{
-            background-color: rgb(220, 193, 231);
+            background-color:#D8BFD8;
             height:120px;
             position: fixed;
-            top:1px;
-            right:0px;
-            left: 0px;
+            position: sticky;
+            top:0;
             text-align: center;
+            margin-bottom: 7px;
         }
         .logo1{
-            position: relative;
-           left:150px;
+            position: sticky;
+          
         }
-        .logo2{
-            position: relative;
-           right:150px;   
-        }
+        
         .cafe{
-            font-style: italic;
-            font-size: 30px;
+          
+            font-size: 45px;
+            font-family: "Lobster", sans-serif; 
             text-align:center;
         }
         .links{
@@ -35,46 +34,160 @@
             font-size:20px ;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .c1{
-            margin-top: 120px;
-            position: absolute;
-            top:30px;
-            margin-left: 150px;
-            border-radius: 7px;
-        }
-        .c2{
-            position: relative;
-            left: 110px;
-          margin-left:555px ;
-            margin-top: 120px;
-            border-radius: 7px;
-        }
-        .c3{
-            position:relative;
-            top:150px;
-            right:120px;
-            border-radius: 7px;
-        }
-
+       .c1{
+        margin-left: 100px;
+       }
+       .para{
+        margin-bottom: 20px;
+        color:rgb(128, 109, 85);
+        font-size: 30px;
+        text-align: center;
+        font-family:cursive;
+        margin-right: 20px;
+       }
+       .info{
+        margin-left: 200px;
+        background-color: #f6f3ff;
+        width: 500px;
+        height:500px;
+        border: solid 1px rgb(163, 155, 214);
+       border-radius: 10px;
+       border-width: 3px;
+       border-top-width: 7px;
+       
+       }
+       .info2{
+        margin-left: 800px;
+        margin-top: -450px;
+        background-color: #f6f3ff;
+        width: 400px;
+        height:360px;
+        border: solid 1px rgb(163, 155, 214);
+       border-radius: 10px;
+       border-width: 3px;
+       border-top-width: 7px;
+     
+       }
+       .droplist{
+        border-color:rgb(163, 155, 214);
+        background-color:#f6f3ff; ;
+       }
+       .p1{
+        display:inline;
+        font-size: 20px;
+        margin-top:20px;
+        margin-left: 20px;
+        color: darkblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .oliver{
+        margin: 30px;
+       }
+       .details{
+        margin-left:10px;
+        color: darkcyan;
+        font-size: 20px;
+       }
+       .contact{
+        text-align: center;
+        margin-left: 10px;
+        width: 300px;
+        height:40px;
+        border-radius: 10px;
+       }
+       .btn{
+        text-align: center;
+        margin-left: 100px;
+        width: 100px;
+        height:30px;
+        color: rgb(48, 79, 137);
+        border-radius: 10px;
+        box-shadow: 2px 2px rgb(221, 208, 208);
+       }
+       .cursive{
+        font-family: "Lobster", sans-serif;
+        color: navy;
+        text-align: center; 
+        font-size: 40px; 
+       }
+       .order{
+        margin-left: 500px;
+        background-color: #f6f3ff;
+        width: 400px;
+        height:450px;
+        border: solid 1px rgb(163, 155, 214);
+       border-radius: 10px;
+       border-width: 3px;
+       border-top-width: 7px;
+       text-align: center;
+       font-size: 20px;
+       }
+       .orderinfo{
+        font-size: 20px;
+        margin-left: 10px;
+        width: 250px;
+        height:30px;
+        border-radius: 10px;
+       }
     </style>
 </head>
 <body>
     <div class="navbar">
-        <h1 class="cafe"><b>Cafe Oliver</b></h1>
-        <img  class="logo2" src="latte-art.png" height="40px;width=100px"/>
-      <img  class="logo2" src="pastry.png" height="40px;width=100px"/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="links" href="home.html" target="blank">Home</a> 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="links" href="Menue.html">Menu</a> 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="links" href="Online service.html">Online-Service</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="links" href="About.html">About Us</a>  
-          <img  class="logo1" src="latte-art.png" height="40px;width=100px"/>
-      <img  class="logo1" src="pastry.png" height="40px;width=100px"/>
+        <h1 class="cafe">Cafe Oliver</h1> 
+       <img class="logo1" src="latte-art.png" height=40px; width=50px/>
+      <img  class="logo1" src="pastry.png" height=40px;  width=50px/>
+      <img  class="logo1" src="latte-art.png" height=40px; width=50px/>
+      <img  class="logo1" src="pastry.png" height=40px; width=50px/>
       </div>
-      
-    <img  class=c1 src="c1.avif" height="350px; width:500px;"/>
-    <img  class=c2 src="c3.avif" height="200px; width:230px"/>
-    <img class=c3 src="cake.jpeg" height="150px; width:190px"/>
-    <img class=c3 src="cofee.jpeg" height="350px; width:200px"/>
-    
+      <div>
+    <img  class=c1 src="cake.jpeg" height="350px; width:200px;"/>
+    <img   src="c3.avif" height="350px; width:230px"/>
+    <img  src="cofee.jpeg" height="350px; width:200px"/>
+</div>
+<p class="para">Cafe Oliver is more than your average cafe;</br>We are family ran business with a dedicated team passionate about delivering quality products to people such as yourself!! </p>
+<div class="info">
+<img  class= "oliver"src="oloiver.png" height="200px" />
+
+<p class="p1 cursive">Address</p>
+<p class="details">No.9,10,11,VCA Stadium Complex,Rabindranath Tagore Road,Opp.SECL Club,Civil Lines Nagpur-440001</p>
+<p class="p1 cursive">Timing</p>
+<p class= "details">8:00 AM-11:45 Pm <select class="droplist">
+    <option>Open</option>
+    <option>Sunday 8:00AM-11:45PM</option>
+    <option>Monday 9:00AM-11:45PM</option>
+    <option>Tuesday 9:00AM-11:45PM</option>
+    <option>Wednesday 8:00AM-11:45PM</option>
+    <option>Thursday 8:00AM-11:45PM</option>
+    <option>Friday 8:00AM-11:45PM</option>
+    <option>Saturday 7:00AM-11:45PM</option>
+  </select></p>
+</div>
+<div class="info2">
+    <p class="cursive" style="margin-left: 40px;">Get in touch with us</p>
+  <input  class="contact" type="textfield" placeholder="Name"/><br/><br/>
+  <input  class="contact" type="tel" placeholder="Mobile Number"/><br/><br/>
+  <input class="contact" type="email" placeholder="Email Id"/><br/><br/>
+  <button class="btn">Submit</button>
+</div>
+<br/>
+<p class="cursive " style="margin-left:30px; margin-top: 100px; text-align: center; font-size: 40px; color:navy">Introducing Our Menu</p>
+<img class="menu"  src="HOT CLASSICS.jpg" height=800px; width=1400px; />
+<h2 class="cursive" >Order Online</h2>
+ <p style="font-size: 30px; font-family:cursive; text-align:center;color:rgb(86, 14, 29);">Enjoy your favorite items from our menu at the comfort of your home.<br/> Order now and get them delivered!</p>
+<div class="order">
+    <label for="name"><b> Enter Name</b></label> <br/><br/>
+    <input class="orderinfo" type="text" id="name" placeholder="Name"/>
+    <br/><br/>
+    <label  for="pin"><b> Pincode </b></label><br/><br/>
+    <input class="orderinfo" type="number" id="pin"  placeholder="Pincode" required/>
+    <br/><br/>
+    <label  for="add"><b>Address </b></label><br/><br/>
+    <input class="orderinfo" type="text" id="add"  placeholder="Address" required/>
+    <br/><br/>
+    <label for="bill"><b> Your bill is:</b></label><br/><br/>
+    <input  class="orderinfo" type="number" id="bill"  placeholder="Bill"/>
+    <br/><br/>
+    <p   style="font-size: 40px;font-family: Lobster, sans-serif; color: navy;">Thank You!!</p>
+</div>
 </body>
 </html>
